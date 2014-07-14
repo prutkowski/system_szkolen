@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <?php require_once APPLICATION_PATH . '/views/scripts/header.phtml' ?>
+
+    <body>
+        <?php require_once APPLICATION_PATH . '/views/scripts/navbar.phtml' ?>
+        <div class="container">
+                <div class="row">
+                    <?= $content; ?>
+                </div>
+        </div>
+        <?php require_once APPLICATION_PATH . '/views/scripts/footer.phtml' ?>
+
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="<?= $base_url ?>/scripts/libs/bootstrap.min.js"></script>
+        <script src="<?= $base_url ?>/scripts/libs/underscore.min.js"></script>
+        <script src="<?= $base_url ?>/scripts/libs/backbone.min.js"></script>
+        <script src="<?= $base_url ?>/scripts/utilities.js"></script>
+        <script type="text/javascript">
+            Global.data = <?= empty($js_data) ? '{}' : json_encode($js_data) ?>;
+        </script>
+        <?php foreach($additional_scripts as $script) : ?>
+            <?= '<script src="'.$base_url.'/scripts/'.$script.'.js"></script>'; ?>
+        <?php endforeach; ?>
+    </body>
+</html>

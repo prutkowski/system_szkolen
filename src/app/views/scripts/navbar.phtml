@@ -1,0 +1,28 @@
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/index/landingPage">System zapisów</a>
+        </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <?php if(\library\Session::get('user_login')) : ?>
+                    <li><a href="/training/index">Szkolenia</a></li>
+                    <li><a href="/dashboard/index">Moje szkolenia</a></li>
+                <?php endif; ?>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            <?php if(\library\Session::get('is_admin')) : ?>
+                <li><a href="/user/admin">Panel administratora</a></li>
+            <?php endif; ?>
+            <?php if(\library\Session::get('user_login')) : ?>
+                <li><a href="/user/logout">Wyloguj</a></li>
+            <?php else : ?>
+                <li><a href="/user/login">Zaloguj</a></li>
+            <?php endif; ?>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

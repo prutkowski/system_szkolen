@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/WebServer/Projekty/gwo/src/library/Session.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/views/scripts/navbar.phtml</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/conf/application.ini</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/views/scripts/index/landingPage.phtml</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/controllers/ErrorsController.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/controllers/IndexController.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/views/layout.phtml</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/models/Training.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/public/styles/styles.css</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/views/scripts/header.phtml</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/controllers/UserController.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/library/Database.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/views/scripts/training/add.phtml</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/views/error.phtml</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/controllers/TrainingController.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/library/Autoloader.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/models/User.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/views/scripts/user/admin.phtml</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/public/index.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/library/Request.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/library/Model.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/controllers/BaseController.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/views/scripts/footer.phtml</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/library/Registry.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/library/Router.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/views/scripts/dashboard/index.phtml</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/controllers/DashboardController.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/library/View.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/views/scripts/errors/error.phtml</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/views/scripts/user/login.phtml</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/library/FrontController.php</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/views/scripts/training/index.phtml</file>
+            <file>file:/C:/WebServer/Projekty/gwo/src/app/views/scripts/user/add.phtml</file>
+        </group>
+    </open-files>
+</project-private>

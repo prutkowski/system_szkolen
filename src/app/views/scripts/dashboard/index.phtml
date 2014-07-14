@@ -1,0 +1,21 @@
+<div class="col-md-6 col-md-offset-3">
+    <div class="page-header">
+        <h3>Lista moich szkoleń</h3>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>id szkolenia</th>
+                <th>Nazwa szkolenia</th>
+            </tr>
+        </thead>
+        <tbody id="training_list">
+            <?php foreach($trainings as $training) : ?>
+                <tr>
+                    <td><?= $training['training_id'] ?></td>
+                    <td><?= $training['name'] ?></td>
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
+</div>

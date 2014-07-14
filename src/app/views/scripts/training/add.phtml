@@ -1,0 +1,24 @@
+<div class="col-md-6 col-md-offset-3">
+    <div class="page-header">
+        <h1>Dodawanie szkolenia</h1>
+    </div>
+
+    <form action="/training/add" class="form-horizontal" method="post">
+        <div class="form-group">
+            <label for="training_name" class="col-sm-4 control-label">Nazwa szkolenia:</label>
+            <div class="col-sm-6">
+                <input type="text" class="form-control" id="training_name" name="training_name"></input>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="total_vacancies" class="col-sm-4 control-label">Liczba wolnych miejsc:</label>
+            <div class="col-sm-2">
+                <input type="text" class="form-control" id="total_vacancies"  name="total_vacancies"></input>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-success">Dodaj</button>
+        <a href="/user/admin" class="btn btn-danger">Anuluj</a>
+    </form>
+</div>

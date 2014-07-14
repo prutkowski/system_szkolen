@@ -1,0 +1,50 @@
+<div class="form-horizontal">
+    <div class="form-group">
+        <label for="user_login" class="col-sm-2 control-label">Szukaj:</label>
+        <div class="col-sm-4">
+            <input type="text" class="form-control" id="search_input" name="search_input" placeholder="wyszukaj szkolenia"></input>
+        </div>
+        <button class="btn btn-large" id="search_btn" type="button"><i class="glyphicon glyphicon-search"></i></button>
+    </div>
+</div>
+
+<div id="trainings">
+</div>
+
+
+<script type="text/template" id="training_list_template">
+    <% if (empty) { %>
+        <div class="alert alert-info alert-big text-center tile-width">
+            Lista szkoleń jest pusta
+        </div>
+    <% } else { %>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>nr</th>
+                <th>Nazwa szkolenia</th>
+                <th>Liczba miejsc</th>
+                <th>Liczba wolnych miejsc</th>
+                <th>Akcje</th>
+            </tr>
+        </thead>
+        <tbody id="training_list">
+
+        </tbody>
+    </table>
+    <% } %>
+</script>
+
+<script type="text/template" id="training_template">
+    <td><%= id %></td>
+    <td><a href="/training/userList/training_id/<%= id %>"><%= name %></a></td>
+    <td><%= total_vacancies %></td>
+    <td><%= free_vacancies %></td>
+    <td><button type="button" class="btn btn-success btn-small join_training">
+        <span class="glyphicon glyphicon-plus"></span> Zapisz się
+        </button>
+        <button type="button" class="btn btn-danger btn-small leave_training">
+        <span class="glyphicon glyphicon-minus"></span> Wypisz się
+        </button>
+    </td>
+</script>
