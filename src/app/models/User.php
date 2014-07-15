@@ -154,7 +154,7 @@ class User extends \library\Model
             throw new \PDOException('Wrong user data');
         }
 
-        $statement = $this->db->prepare("INSERT INTO $this->table_name (login, password, status) VALUES (:login, :password, :password)");
+        $statement = $this->db->prepare("INSERT INTO $this->table_name (login, password, status) VALUES (:login, :password, :status)");
         $statement->bindParam(':login', $this->getLogin(), \PDO::PARAM_INT);
         $statement->bindParam(':password', $this->getPassword(), \PDO::PARAM_STR);
         $statement->bindParam(':status', $this->getStatus(), \PDO::PARAM_INT);
